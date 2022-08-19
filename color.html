@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colorgame</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <div id="top">
+        <div id="notificationBox">
+            <p id="notification">Points Earned: <strong></strong></p>
+        </div>
+        <h2 id="screen"></h2>
+    </div>
+    <div id="gamecontainer">
+        <div id="navbar">
+            <button>Play Again</button>
+            <progress id="result" value="0" min="0" max="100"></progress>
+            <div>
+                <button>easy</button>
+                <button>hard</button>
+            </div>
+        </div>
+        <div id="colorContainer">
+            <button class="colorButton"></button>
+            <button class="colorButton"></button>
+            <button class="colorButton"></button>
+            <button class="colorButton"></button>
+            <button class="colorButton"></button>
+            <button class="colorButton"></button>
+        </div>
+    </div>
+    <script src="color.js"></script>
+</body>
+</html>
